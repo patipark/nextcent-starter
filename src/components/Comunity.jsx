@@ -8,7 +8,7 @@ const Comunity = () => {
     <div className='container mx-auto max-w-[1329ox] text-center'>
         <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Manage your entire community in a single system</h2>
         <p className='text-[#717171]'>Who is Nextcent suitable for?</p>
-        <div>
+        <div className='grid grid-cols-1 md:grid-cols-3 gap-[100px] m-10 md:m-0'>
             <div>
                 <img src={icon01} alt='' />
                 <h3>Membership<br/> Organisations</h3>
