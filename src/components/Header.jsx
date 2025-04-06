@@ -1,4 +1,5 @@
 import React from 'react'
+import HeaderImg from '../assets/img/header-img.png'
 
 function Header() {
   return (
@@ -9,7 +10,7 @@ function Header() {
                 <p className='text-[#717171] mt-5'>Where to grow your business as a photographer: site or social media?</p>
                 <a className="inline-flex justify-center items-center py-3 px-8 mt-10 bg-[#4CAF4F] text-white rounded-md" href="#">Register</a>
             </div>
-            <div></div>
+            <div><img src={HeaderImg} alt="" /></div>
         </div>
 
     </div>
