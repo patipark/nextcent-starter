@@ -5,7 +5,7 @@ import { FaBars } from "react-icons/fa";
 function Navbar() {
   return (
     <nav className="bg-[#F5F7FA]">
-      <div className="container mx-auto max-w-[1320px] relative h-auto p-10 flex flex-col md:flex-row">
+      <div className="container mx-auto max-w-[1320px] relative h-auto p-10 flex flex-col md:flex-row md:justify-between">
         <div>
             <a href="#">
                 <img src={Logo} alt=""/>
