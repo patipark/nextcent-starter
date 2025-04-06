@@ -6,22 +6,22 @@ import icon03 from '../assets/img/icon-03.png'
 const Comunity = () => {
   return (
     <div className='container mx-auto max-w-[1329ox] text-center'>
-        <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Manage your entire community in a single system</h2>
+        <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Manage your entire community <br/>in a single system</h2>
         <p className='text-[#717171]'>Who is Nextcent suitable for?</p>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-[100px] m-10 md:m-0'>
             <div className='shadow-lg p-10 rounded-lg'>
                 <img className='mx-auto' src={icon01} alt='' />
-                <h3>Membership<br/> Organisations</h3>
+                <h3 className='text-[1.75rem] font-bold text-[#4D4D4D] my-3'>Membership<br/> Organisations</h3>
                 <p>Our membership management software provides full automation of membership renewals and payments</p>
             </div>
             <div className='shadow-lg p-10 rounded-lg'>
                 <img className='mx-auto' src={icon02} alt='' />
-                <h3>National<br/> Associations</h3>
+                <h3 className='text-[1.75rem] font-bold text-[#4D4D4D] my-3'>National<br/> Associations</h3>
                 <p>Our membership management software provides full automation of membership renewals and payments</p>
             </div>
             <div className='shadow-lg p-10 rounded-lg'>
                 <img className='mx-auto' src={icon03} alt='' />
-                <h3>Clubs And <br/> Groups</h3>
+                <h3 className='text-[1.75rem] font-bold text-[#4D4D4D] my-3'>Clubs And <br/> Groups</h3>
                 <p>Our membership management software provides full automation of membership renewals and payments</p>
             </div>
         </div>
