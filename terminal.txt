@@ -34,3 +34,15 @@ added 12 packages, and audited 275 packages in 9s
   run `npm fund` for details
 
 found 0 vulnerabilities
+
+❯ npm run dev
+
+> nextcent-starter@0.0.0 dev
+> vite
+
+
+  VITE v6.2.5  ready in 561 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
