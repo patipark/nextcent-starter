@@ -9,7 +9,7 @@ const Comunity = () => {
         <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Manage your entire community in a single system</h2>
         <p className='text-[#717171]'>Who is Nextcent suitable for?</p>
         <div className='grid grid-cols-1 md:grid-cols-3 gap-[100px] m-10 md:m-0'>
-            <div>
+            <div className='shadow-lg p-10'>
                 <img src={icon01} alt='' />
                 <h3>Membership<br/> Organisations</h3>
                 <p>Our membership management software provides full automation of membership renewals and payments</p>
