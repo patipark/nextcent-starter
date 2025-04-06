@@ -2,7 +2,9 @@ import React from 'react'
 
 function Header() {
   return (
-    <div>Header</div>
+    <div className='bg-[#F5F7FA] h-auto md:h-[600px]'>
+
+    </div>
   )
 }
 
