@@ -20,6 +20,12 @@ function Navbar() {
             <li><a href="#">Testimonial</a></li>
             <li><a href="#">FAQ</a></li>
         </ui>
+        <ui>
+            <li><a href="#">Login</a></li>
+            <li><a href="#">Singup</a></li>
+          
+        </ui>
+
       </div>
     </nav>
   );
