@@ -21,7 +21,15 @@ const clientImgLogos = [
 const Clients = () => {
   return (
     <div className='container mx-auto max-w-[1320px] py-10 text-center'>
-
+        <h2 className='text-[2.25rem] font-semibold text-[#4D4D4D]'>Our Clients</h2>
+        <p className='text-[#717171]'>We have been working with some Fortune 500+ clients</p>
+        <ul>
+            {clientImgLogos.map((clent, index) => (
+                <li key={index}>
+                    <img src={clent} alt='' />
+                </li>
+            ))}
+        </ul>
     </div>
   )
 }
