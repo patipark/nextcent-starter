@@ -19,7 +19,7 @@ function Navbar() {
                 <img src={Logo} alt=""/>
             </a>
         </div>
-        <ul className='hidden flex flex-col my-5 md:flex-row '>
+        <ul className={`${!toggle ? 'hidden' : 'flex'} flex-col my-5 md:flex-row`}>
             <li className='my-2 md:mx-4'><a href="#">Service</a></li>
             <li className='my-2 md:mx-4'><a href="#">Home</a></li>
             <li className='my-2 md:mx-4'><a href="#">Feature</a></li>
@@ -28,7 +28,7 @@ function Navbar() {
             <li className='my-2 md:mx-4'><a href="#">Testimonial</a></li>
             <li className='my-2 md:mx-4'><a href="#">FAQ</a></li>
         </ul>
-        <ul className='hidden flex flex-col my-5 md:flex-row '>
+        <ul className={`${!toggle ? 'hidden' : 'flex'} flex-col my-5 md:flex-row`}>
             <li className='my-2 md:mx-4'><a className="inline-flex justify-center items-center py-2 px-4 text-[#4CAF4F] " href="#">Login</a></li>
             <li className='my-2 md:mx-4'><a className="inline-flex justify-center items-center py-2 px-4 bg-[#4CAF4F] text-white rounded-md" href="#">Singup</a></li>
         
