@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import clientImgLogo01 from '../assets/img/clients/client-01.png'
 import clientImgLogo02 from '../assets/img/clients/client-02.png'

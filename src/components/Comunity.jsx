@@ -1,4 +1,3 @@
-import React from 'react'
 import icon01 from '../assets/img/icon-01.png'
 import icon02 from '../assets/img/icon-02.png'
 import icon03 from '../assets/img/icon-03.png'
