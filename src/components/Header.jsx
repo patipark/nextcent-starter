@@ -1,4 +1,3 @@
-import React from 'react'
 import HeaderImg from '../assets/img/header-img.png'
 
 function Header() {
