@@ -5,6 +5,7 @@ import Navbar from './components/Navbar'
 import Header from './components/Header'
 import Clients from './components/Clients'
 import Comunity from './components/Comunity'
+import Pixelgrade from './components/Pixelgrade'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Clients />
       <Comunity />
+      <Pixelgrade />
     </>
   )
 }
