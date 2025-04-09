@@ -7,6 +7,7 @@ import Clients from './components/Clients'
 import Comunity from './components/Comunity'
 import Pixelgrade from './components/Pixelgrade'
 import Stats from './components/Stats'
+import How from './components/How'
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Comunity />
       <Pixelgrade />
       <Stats />
+      <How />
     </>
   )
 }
