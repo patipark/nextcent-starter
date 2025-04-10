@@ -11,6 +11,7 @@ import How from './components/How'
 import Meet from './components/Meet'
 import Article from './components/Article'
 import Demo from './components/Demo'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       <Meet />
       <Article />
       <Demo />
+      <Footer />
     </>
   )
 }
