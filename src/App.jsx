@@ -10,6 +10,7 @@ import Stats from './components/Stats'
 import How from './components/How'
 import Meet from './components/Meet'
 import Article from './components/Article'
+import Demo from './components/Demo'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <How />
       <Meet />
       <Article />
+      <Demo />
     </>
   )
 }
